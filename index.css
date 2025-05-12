@@ -33,3 +33,25 @@
         display: none;
          
 }
+
+a.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+    transition: all 0.2s ease; 
+}
+
+
+.pricingCard:hover,.pricingCard:hover{
+     transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); 
+    transition: all 0.2s ease; 
+
+}
+.pricingCard .pricingCardLower1{
+    background: linear-gradient(135deg, #0d6efd, #4dabf7);
+    border-top-left-radius: 50px;
+}
+.pricingCard .pricingCardLower2{
+    background:linear-gradient(135deg, #f80faa, #f793d6);
+    border-top-left-radius: 50px;
+}
