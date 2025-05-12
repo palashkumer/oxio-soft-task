@@ -1,0 +1,35 @@
+/* ----------Header section-------*/
+.profile-section:hover .login-form {
+    display: block;
+}
+
+.login-form {
+    display: none;
+}
+
+.profile-section .login-form {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 250px;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+/*----------- Hero Section------------ */
+.nav-item.bg-primary:hover .order-btn {
+        display: block;
+        background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.order-btn {
+        z-index: 100000;
+        display: none;
+         
+}
